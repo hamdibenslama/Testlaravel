@@ -1,0 +1,26 @@
+les etapes:
+-install laravel
+-Install Laravel/UI(offers basic Auth Scaffolding built on the Bootstrap CSS framework)
+-Install Bootstrap in Laravel
+-configure our database(dbdatabase=crud,dbuser"root"),dbpassword="")
+-create database table(class createposttable)
+-create Postmodel
+-ajouter les  Routes dans web.php
+-create CRUD Controller(store update delete post) for Posts[
+
+1) index() → This will pass the variable with list of all posts to the view file - resources/views/posts/index.blade.php
+
+2) create() → This will simply show the create post form view file - resources/views/posts/create.blade.php
+
+3) store() → This method will receive $request data from the route and will create new Post record using that data
+
+4) show() → This method will pass Post data obtained via Route-Model Binding to the view file to display post
+
+5) edit() → This method will pass Post data to the edit post form page.
+
+6) update() → This method will receive Post data and $request data and will update Post accordingly
+
+7) destroy() → This method will delete Pos
+
+]
+-create views files(createpage editpage delete page indexpage)
